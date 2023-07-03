@@ -1,0 +1,48 @@
+
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main {
+    display: block; 
+}
+.header-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;
+}
+.button-fb {
+    background-color: transparent;
+    border: none;
+    color: #2a2a2a;
+}
+.button-in {
+    background-color: transparent;
+    border: none;
+}
+.header-nav {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.header-logo {
+    display: block;
+    background-image: url(../images/logo.svg);
+    width: 97px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
