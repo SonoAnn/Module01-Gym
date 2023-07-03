@@ -10,6 +10,9 @@ body {
     padding-right: 15px;
 }
 .header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,24 +22,50 @@ body {
 }
 .header-item {
     display: flex;
+    list-style-type: none;
     align-items: center;
     justify-content: space-between;
     background-color: transparent;
-    border: none;
+    gap: 30px;
+
 }
-.button-fb {
+.blank {
     background-color: transparent;
     border: none;
     color: #2a2a2a;
 }
-.button-in {
+.blank-in {
     background-color: transparent;
     border: none;
 }
+
 .header-nav {
     display: flex;
     list-style-type: none;
     align-items: center;
+    padding-left: 0;
+    gap: 54px;
+    padding-right: 258px;
+    padding-top: 6px;
+}
+.header-nav a {
+    color: #2B3541;
+    text-decoration: none;
+}
+.header-item a {
+    display: block;
+    background-image: url(images/IN.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+    transform: scale(1);
+    opacity: 0.8;
+}
+.header-item a:hover {
+   transform: scale(1.2);
+   opacity: 1;
 }
 .header-logo {
     display: block;
