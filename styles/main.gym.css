@@ -27,18 +27,7 @@ body {
     justify-content: space-between;
     background-color: transparent;
     gap: 30px;
-
 }
-.blank {
-    background-color: transparent;
-    border: none;
-    color: #2a2a2a;
-}
-.blank-in {
-    background-color: transparent;
-    border: none;
-}
-
 .header-nav {
     display: flex;
     list-style-type: none;
