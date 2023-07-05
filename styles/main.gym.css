@@ -16,8 +16,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 51px;
-    margin-right: 14px;
+    margin-top: 50px;
+    margin-right: 27px;
 }
 .main {
     display: block; 
@@ -70,11 +70,10 @@ body {
 .container {
     display: flex;
     position: relative;
-    max-width: 1326px;
+    max-width: 1170px;
     height: 852px;
-    margin-left: 187px;
-    margin-right: 187px;
-    margin-top: 209px;
+    margin: auto;
+    margin-top: 12px;
 }
 .content {
     max-width: 676px;
@@ -83,7 +82,7 @@ body {
     position: absolute;
     width: 996px;
     height: 930px;
-    margin-top: -159px;
+    margin-top: 38px;
     margin-left: 328px; 
 }
 .visual {
@@ -104,16 +103,15 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.44px;
+    margin-top: 229px;
 }
 
 .promo {
     color: #2B3541;
     font-size: 40px;
-    
     font-weight: 400;
-  
-    margin-top: 45px;
-    margin-left: 6px;
+    margin-top: 48px;
+    margin-left: 13px;
 }
 .content-link {
     color: var(--dark, #2B3541);
@@ -133,8 +131,8 @@ body {
     margin-top: 21px; 
 }
 .section {
-    margin-left: 88px;
-    margin-top: -20px;
+    margin-left: 93px;
+    margin-top: -18px;
 }
 p {
     display: flex;
@@ -149,4 +147,9 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+}
+.scroll-button {
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
