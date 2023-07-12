@@ -42,6 +42,18 @@ body {
     color: #2B3541;
     text-decoration: none;
 }
+.header-nav a.active::after {
+    content: '';
+    width: 133px;
+    height: 1px;
+    border-radius: 1.5px;
+    background: transparent;
+    display: block;
+    margin-top: 8px;
+}
+.header-nav a.active::after {
+    background: #2B3541;
+}
 .header-item a {
     display: block;
     background-image: url(images/IN.png);
@@ -89,7 +101,7 @@ body {
     flex: 1;
     max-width: 464px;
     opacity: 0.20000000298023224;
-    background: linear-gradient(90deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%); 
+    background: linear-gradient(90deg, rgba(251, 241, 56, 0.5) 0%, rgba(253, 249, 182, 0.45) 100%); 
 }
 .rectangle {
     opacity: 0.20000000298023224;
@@ -144,7 +156,7 @@ p {
     color: var(--dark, #2B3541);
     font-size: 18px;
     font-family: Montserrat;
-    font-style: normal;
+    font-style: normal; 
     font-weight: 400;
     line-height: 150%;
 }
@@ -152,12 +164,18 @@ p {
     position: absolute;
     left: 0;
     bottom: 0;
+    transition: 1s;
+}
+.content-link:hover {
+    background-color: #2B3541;
+    transition: 0.3s;
+    color: #FBF138;
 }
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px 20px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 50px;
 }
 .menu-header  {
@@ -171,6 +189,28 @@ p {
 }
 .menu-grid-cover  {
     position: relative;
+    transition: .3s;
+   
+}
+.menu-grid-cover::after {
+    content: '';
+    position: absolute;
+  
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(251, 241, 56, .3) 0%, rgba(253, 249, 182, 0) 100%);
+}
+.menu-grid-cover:hover::after {
+    content: '';
+    position: absolute;
+    transition: .3s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(251, 241, 56, .8) 0%, rgba(253, 249, 182, 0) 100%);
 }
 .menu-grid-btn {
     position: absolute;
@@ -179,6 +219,44 @@ p {
     background: var(--yellow, #FBF138);
     width: 126.111px;
     height: 47px; 
-    border: none;  
+    border: none;    
+}
+.menu-grid-cover img:hover {
+    background: linear-gradient (180deg, #FBF138 0%, rgba(253, 249, 182, 0.00) 100%);
+    opacity: 0.6;
     
+}
+
+.menu-grid-cover img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.menu-grid-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+.menu-grid-box {
+    position: absolute;
+    top: 11px;
+    left: 31px;
+}
+.menu-grid-date  {
+    color: #2B3541;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    opacity: 0.6
+}
+.menu-grid-name  {
+    color: #2B3541;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    margin-top: -19px;
 }
