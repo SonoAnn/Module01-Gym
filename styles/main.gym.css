@@ -49,9 +49,9 @@ body {
     border-radius: 1.5px;
     background: transparent;
     display: block;
-    margin-top: 8px;
+    margin-top: 3px;
 }
-.header-nav a.active::after {
+.header-nav a.active:hover::after {
     background: #2B3541;
 }
 .header-item a {
@@ -259,4 +259,23 @@ p {
     font-weight: 700;
     line-height: 125%;
     margin-top: -19px;
+}
+.open-modal {
+    position: absolute;
+    bottom: 351px;
+    right: 113px;
+    background:  #2B3541;
+    width: 221px;
+    height: 64px; 
+    border: none;
+    color: #FBF138;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0;
+}
+.menu-grid-cover:hover .open-modal  {
+   opacity: 1;
 }
