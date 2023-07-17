@@ -309,8 +309,7 @@ p {
     max-width: 365px;
 }
 
-
-.content {
+.grid {
     display: grid;
     grid-template-columns: 367px 366px 360px;
     grid-template-rows: 309px 374px 402px 281px;
