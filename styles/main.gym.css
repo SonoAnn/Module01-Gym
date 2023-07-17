@@ -279,3 +279,32 @@ p {
 .menu-grid-cover:hover .open-modal  {
    opacity: 1;
 }
+.inner {
+    max-width: 1140px;
+    margin: 0 auto;
+   
+} 
+.other-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.other-title {
+    color: #2B3541;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 50px */
+}
+.other-date {
+    color: var(--dark, #2B3541);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 35px */
+}
+.other-title {
+    max-width: 365px;
+}
