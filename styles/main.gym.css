@@ -219,7 +219,8 @@ p {
     background: var(--yellow, #FBF138);
     width: 126.111px;
     height: 47px; 
-    border: none;    
+    border: none;  
+  
 }
 .menu-grid-cover img:hover {
     background: linear-gradient (180deg, #FBF138 0%, rgba(253, 249, 182, 0.00) 100%);
@@ -242,6 +243,7 @@ p {
     position: absolute;
     top: 11px;
     left: 31px;
+    z-index: 1;
 }
 .menu-grid-date  {
     color: #2B3541;
@@ -275,6 +277,7 @@ p {
     text-transform: uppercase;
     font-weight: 700;
     opacity: 0;
+    z-index: 1;
 }
 .menu-grid-cover:hover .open-modal  {
    opacity: 1;
@@ -354,10 +357,16 @@ p {
   .item:nth-child(6) {
     grid-column: 1/2;
     grid-row: 2/4;
-   
   }
   .itembox {
     display: flex;
     flex-direction: column;
     
   }
+
+  .jump {
+    width: 67px;
+    height: 107px;
+
+  }
+  
