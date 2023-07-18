@@ -316,6 +316,7 @@ p {
     gap: 20px;
 }
 .item {
+    position: relative;
     border: 1px solid rgba(43, 53, 65, 0.5);
     opacity: 0.5;
   }
@@ -354,4 +355,9 @@ p {
     grid-column: 1/2;
     grid-row: 2/4;
    
+  }
+  .itembox {
+    display: flex;
+    flex-direction: column;
+    
   }
