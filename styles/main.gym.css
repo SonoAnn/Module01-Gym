@@ -291,6 +291,10 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1920px;
+    margin-top: 123px;
+      
+
 }
 .other-title {
     color: #2B3541;
@@ -307,6 +311,8 @@ p {
     font-style: normal;
     font-weight: 700;
     line-height: 125%; /* 35px */
+    margin-top: 0px;
+    margin-right: -98px;
 }
 .other-title {
     max-width: 365px;
@@ -322,7 +328,12 @@ p {
    
     position: relative;
     border: 1px solid rgba(43, 53, 65, 0.5);
-    opacity: 0.5;
+    opacity: 0.7;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 22.5px */
     
   }
   
@@ -432,8 +443,55 @@ p {
     height: 65px;
     background-color: #FBF138;
     text-decoration: none;
+    border: none;
+    color: var(--dark, #2B3541);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
   }
   .nome {
     padding-top: 40px;
     padding-left: 20px;
+  }
+  .email {
+    width: 372px;
+    height: 65px;
+    color: var(--dark, #2B3541);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    border: none;
+  }
+  .label {
+    color: var(--dark, #2B3541);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .emailbox {
+    margin-top: 10px;
+  }
+  .aside-img  {
+    width: 581px;
+    height: 335px;
+    
+
+  }
+
+
+
+
+
+  .wrap  {
+    background: #F3F3F3;
   }
