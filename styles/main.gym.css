@@ -520,24 +520,6 @@ p {
     z-index: 1;
    
   }
-  #lable {
-    z-index: 1;
-  }
-  #image {
-    z-index: 0;
-  }
-  .circle {
-    position: absolute;
-    color: #FBF138;
-    width: 53px;
-    height: 53px;
-    margin-top: -42px;
-    margin-right: 567px;
-    z-index: 0;
-  }
-  .emailbox {
-    margin-top: 10px;
-  }
   .commit {
     color: var(--dark, #2B3541);
     text-align: center;
@@ -555,6 +537,38 @@ p {
     border: none;
     margin-top: 33px;
   }
+.emailbox {
+  margin-bottom: 15px;
+}
+.row {
+
+}
+.check {
+  opacity: 0.5;
+  color: var(--dark, #2B3541);
+  font-family: Montserrat;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  }
+.check-highload {
+  width: 18px;
+  height: 18px;
+  border: #2B3541;
+  opacity: 1 ;
+  border: 1px;
+
+}
+.check a {
+  color: var(--dark, #2B3541);
+  }
+.check a :hover {
+  color: #2B3541;
+  opacity: 1;
+
+}
+
   .about-img img {
     width: 581px;
     height: 335px;
