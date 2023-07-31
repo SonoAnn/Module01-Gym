@@ -750,3 +750,21 @@ label {
   justify-content: space-between;
   flex-basis: 80.5%;
 }
+.footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.footer_inf {
+  color: var(--dark, #2B3541);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  opacity: 0.30000001192092896;
+}
+.Annblok {
+  text-decoration: underline;
+}
