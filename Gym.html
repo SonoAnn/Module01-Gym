@@ -14,6 +14,7 @@
     <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <script src="./js/index.js" defer></script>
 </head>
 <body>
     <header>
@@ -186,14 +187,15 @@
                     <h2 class="form__title">Подписаться на рассылку</h2>
                     <form> 
                         <div class="emailbox">
-                            <input type="email" id="email" class="email" name="email" placeholder="Ваш e-mail">
+                            <input type="email" id="email" data-rule="mail" class="email" name="email" placeholder="Ваш e-mail">
                             <input type="submit" class="submit" value="ПОДПИСАТЬСЯ"> 
                         </div>         
                     </form>
                     <div class="agreement">
                         <input type="checkbox" id="01" class="checkbox">
                         <label for="01">Согласен с обработкой <a href="#" target="_blank" class="agreement_link">персональных данных</a></label>
-                </div>
+                    </div>
+                </div>  
             </section> 
             <section class="about">
                 <div class="wrapper">
