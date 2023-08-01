@@ -93,10 +93,11 @@ body {
   left: 328px; 
 }
 .visual {
-  flex: 1;
   max-width: 464px;
+  width: 100%;
   opacity: 0.20000000298023224;
   background: linear-gradient(90deg, rgba(251, 241, 56, 0.5) 0%, rgba(253, 249, 182, 0.45) 100%); 
+  
 }
 .rectangle {
   opacity: 0.20000000298023224;
