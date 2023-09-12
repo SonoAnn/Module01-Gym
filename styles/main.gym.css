@@ -41,7 +41,7 @@ body {
   color: #2B3541;
   text-decoration: none;
 }
-.header-nav a.active::after {
+.header-nav a.active:hover::after {
   content: '';
   width: 133px;
   height: 1px;
