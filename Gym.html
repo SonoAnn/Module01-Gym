@@ -21,6 +21,9 @@
         <div class="wrapper"> 
             <div class="header"> 
                  <a href="" class="header-logo"></a>
+                 <div class="header-burger">
+                    <button class="burger" onclick="openModal()"></button>
+                </div>
                       <nav>
                           <ul class="header-nav">
                               <li><a href="#" class="active">Мероприятия</a></li>
@@ -270,12 +273,48 @@
                         <div class="footer-info">
                             <span class="footer_inf">© 2022, Все права защищены</span>
                             <span class="footer_inf">Сделано в рамках курса учебной платформы <span class="Annblok">Annblok</span> </span>
-                        </div>   
+                        </div> 
+                        <div class="modal" id="modal"> 
+                            <div class="modal-header">
+                                <a href="" class="footer-logo"></a>
+                                <button class="burger-close" onclick="closeModal()">
+                                </button> 
+                            </div>
+                            <ul class="header-nav">
+                                <li><a href="#" class="active">Мероприятия</a></li>
+                                <li><a href="#">Расписание</a></li>
+                                <li><a href="#">О компании</a></li>
+                            </ul>
+                            <ul class="header-item">
+                                <li>
+                              <a href="#" target="blank">
+                                  <img src="images/IN.png" alt="in">
+                              </a>
+                                </li>
+                                <li>
+                                <a href="#"  target="blank">
+                                  <img src="images/FB.png" alt="fb">
+                                </a>
+                                </li>
+                            </ul> 
+                            <div class="modal-rectangle"></div>
+                        </div>  
                     </div>
                 
             </footer>
 
     </div>
+    <script>
+        // Menu
+
+        function openModal() {
+           document.getElementById("modal").style.top = "0px";
+       }
+
+       function closeModal() {
+           document.getElementById("modal").style.top = "-555px";
+       }
+    </script>
 </body>
 </html>
        
