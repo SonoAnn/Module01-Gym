@@ -5,7 +5,8 @@ body {
 }
 .wrapper {
   max-width: 1140px;
-  margin: 0 auto;
+  margin: 0 auto;  
+  
 }
 .header {
   font-family: 'Montserrat', sans-serif;
@@ -15,7 +16,6 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
-  margin-right: 27px;
 }
 .main {
   display: block; 
@@ -140,12 +140,6 @@ body {
 .section {
   margin-left: 93px;
   margin-top: -18px;
-}
-p {
-  display: flex;
-  width: 297px;
-  height: 49px;
-  flex-direction: column;
 }
 .content-text  {
   color: var(--dark, #2B3541);
@@ -275,7 +269,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1920px;
   margin-top: 123px;
 }
 .other-title {
@@ -294,7 +287,6 @@ p {
   font-weight: 700;
   line-height: 125%; /* 35px */
   margin-top: 0px;
-  margin-right: -98px;
 }
 .other-title {
   max-width: 365px;
@@ -466,6 +458,10 @@ p {
  }
 .nome {
   padding-top: 18px;
+  display: flex;
+  width: 297px;
+  height: 49px;
+  flex-direction: column;
 }
 .email {
   width: 372px;
