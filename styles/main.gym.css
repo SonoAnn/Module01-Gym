@@ -880,11 +880,8 @@ label {
     -webkit-transform: scale(0.7);
     bottom: 209px;
     left: -7px;
+} 
 }
- 
-}
-
-
 @media (max-width: 1000px){
    
   .header {
@@ -1072,6 +1069,15 @@ label {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
   }
+  .itembox {
+    left: 25px;
+  }
+  .date {
+    font-size: 16px;
+    margin-top: 23px;
+    padding-right: 21px;
+}
+
   .form {
     max-width: 769px;
     height: 416px;
