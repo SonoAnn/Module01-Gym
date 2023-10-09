@@ -220,7 +220,7 @@ body {
   background: linear-gradient (180deg, #FBF138 0%, rgba(253, 249, 182, 0.00) 100%);
   opacity: 0.6;
 }
-.menu-grid-cover img {
+.menu-grid-image {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -1038,7 +1038,9 @@ label {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
 }
-
+.other-header {
+  margin-top: 0;
+}
 .item:nth-child(1) {
   grid-column: 1/2;
   grid-row: 1/2;
@@ -1069,7 +1071,16 @@ label {
     height: 29.9vh;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
+  }
+  .form {
+    max-width: 769px;
+    height: 416px;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 100px;
 }
+
 }
 @media (min-width: 770px){
   .open-modal .menu-grid-cross {

@@ -77,7 +77,7 @@
                     <div class="menu-grid">
                         <div class="menu-grid-item">
                             <div class="menu-grid-cover">
-                                <img src="./images/section/Image.png" alt="марафон">
+                                <img class="menu-grid-image" src="./images/section/Image.png" alt="марафон">
                                 <div class="menu-grid-box">
                                     <p class="menu-grid-date">29.06 - 4.07</p>
                                     <p class="menu-grid-name">Марафон выносливости</p>
@@ -93,7 +93,7 @@
                         </div>
                         <div class="menu-grid-item">
                             <div class="menu-grid-cover">
-                                <img src="./images/section/Image2.png" alt="вебинар">
+                                <img class="menu-grid-image" src="./images/section/Image2.png" alt="вебинар">
                                 <div class="menu-grid-box">
                                     <p class="menu-grid-date">9.07</p>
                                     <p class="menu-grid-name">Как стать тренером?</p>
@@ -110,15 +110,12 @@
                         </div>
                         <div class="menu-grid-item">
                             <div class="menu-grid-cover">
-                                <img src="./images/section/Image3.png" srcset="
-                                ./images/section/vebinar2.png 320w,
-                                ./images/section/vebinar3.png 480w,
-                                ./images/section/Image3.png 800w"
-                                sizes="
-                                (max-width:320px)280px,
-                                (max-width:480pz)440px,
-                                800px"
-                                alt="вебинар">
+                                <picture>
+                                    <source media="(min-width:650px)"srcset="./images/section/Image3.png">
+                                    <source media="(min-width:465px)"srcset="./images/section/vebinar2.png">
+                                    <img class="menu-grid-image" src="./images/section/Image3.png" alt="вебинар">
+
+                                </picture>
                                 <div class="menu-grid-box">
                                     <p class="menu-grid-date">15.07</p>
                                     <p class="menu-grid-name">Йога, как стиль жизни</p>
