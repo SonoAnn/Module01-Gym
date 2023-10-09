@@ -1033,7 +1033,8 @@ label {
 }
 .grid {
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-bottom: 88px;
 }
 .other-header {
   margin-top: 0;
@@ -1076,8 +1077,7 @@ label {
     font-size: 16px;
     margin-top: 23px;
     padding-right: 21px;
-}
-
+  }
   .form {
     max-width: 769px;
     height: 416px;
@@ -1086,7 +1086,31 @@ label {
     margin: 0 auto;
     margin-bottom: 100px;
 }
-
+  .form__title::before {
+    width: 31px;
+    height: 31px;
+    left: -14px;
+    bottom: 43px;
+  }
+  .form__title {
+    font-size: 26px;
+    max-width: 200px;
+    margin: 0 auto;
+}
+  .email {
+    width: 340px;
+  }
+.subject {
+  font-size: 26px;
+  }
+  .desc {
+    max-width: 340px;
+    font-size: 16px;
+  }
+  .about-img img {
+    width: 370px;
+    height: 227px;
+  }
 }
 @media (min-width: 770px){
   .open-modal .menu-grid-cross {
