@@ -464,6 +464,24 @@ body {
     letter-spacing: 0.48px;
     text-transform: uppercase;
  }
+ .submit-mobile {
+  width: 340px;
+  height: 65px;
+  background-color: #FBF138;
+  text-decoration: none;
+  border: none;
+  color: var(--dark, #2B3541);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  margin-top: 20px;
+
+}
 .nome {
   padding-top: 18px;
   display: flex;
@@ -772,6 +790,11 @@ label {
 }
 .Annblok {
   text-decoration: underline;
+  opacity: 20%;
+}
+.YouCanCode {
+  text-decoration: underline;
+  opacity: 20%;
 }
 /*Modal*/
 
@@ -1104,21 +1127,58 @@ label {
   font-size: 26px;
   }
   .desc {
-    max-width: 340px;
+    max-width: 318px;
     font-size: 16px;
+    margin-top: 0;
   }
+  .commit {
+    width: 214px;
+  }
+  .submit {
+    display: none;
+  }
+  
   .about-img img {
     width: 370px;
     height: 227px;
   }
+  .advantage {
+    display: inline-block;
+}
+  .advantage__contents {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+  .advantage-item {
+    flex-basis: 41%;
+  }
+  .footer {
+    height: 280px;
+  }
+  .Annblok {
+    display: none;
+  }
+  .footer__box {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .footer-nav {
+    font-size: 12px;
+}
 }
 @media (min-width: 770px){
   .open-modal .menu-grid-cross {
     display: none;
   }
+  .submit-mobile {
+    display: none;
+  } 
+  .YouCanCode{
+    display: none;
+  }
 }
 @media (max-width:768px){
-  nav {
+  .menu-header {
     display: none;
   }
 }

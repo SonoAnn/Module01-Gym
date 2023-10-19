@@ -24,7 +24,7 @@
                  <div class="header-burger">
                     <button class="burger" onclick="openModal()"></button>
                 </div>
-                      <nav>
+                      <nav class="menu-header">
                           <ul class="header-nav">
                               <li><a href="#" class="active">Мероприятия</a></li>
                               <li><a href="#">Расписание</a></li>
@@ -59,6 +59,10 @@
                 </div>
             </div> 
             <div class="visual"> 
+
+
+
+
                 <div class="rectangle"></div> 
             </div>
             <div class="visual-girl">
@@ -78,8 +82,8 @@
                         <div class="menu-grid-item">
                             <div class="menu-grid-cover">
                                 <picture>
-                                    <source media="(min-width:650px)"srcset="./images/section/Image.png">
-                                    <source media="(min-width:465px)"srcset="./images/section/marafonmedium.png">
+                                    <source media="(min-width:768px)"srcset="./images/section/Image.png">
+                                    <source media="(min-width:360px)"srcset="./images/section/marafonmedium.png">
                                     <img class="menu-grid-image" src="./images/section/Image.png" alt="марафон">
                                 </picture>
                                 
@@ -99,8 +103,8 @@
                         <div class="menu-grid-item">
                             <div class="menu-grid-cover">
                                 <picture>
-                                    <source media="(min-width:650px)"srcset="./images/section/Image2.png">
-                                    <source media="(min-width:465px)"srcset="./images/section/coachmedium.png">
+                                    <source media="(min-width:768px)"srcset="./images/section/Image2.png">
+                                    <source media="(min-width:360px)"srcset="./images/section/coachmedium.png">
                                     <img class="menu-grid-image" src="./images/section/Image2.png" alt="вебинар">
                                 </picture>
                                 <div class="menu-grid-box">
@@ -120,8 +124,8 @@
                         <div class="menu-grid-item">
                             <div class="menu-grid-cover">
                                 <picture>
-                                    <source media="(min-width:650px)"srcset="./images/section/Image3.png">
-                                    <source media="(min-width:465px)"srcset="./images/section/vebinar2.png">
+                                    <source media="(min-width:768px)"srcset="./images/section/Image3.png">
+                                    <source media="(min-width:360px)"srcset="./images/section/vebinar2.png">
                                     <img class="menu-grid-image" src="./images/section/Image3.png" alt="вебинар">
                                 </picture>
                                 <div class="menu-grid-box">
@@ -215,6 +219,7 @@
                         <input type="checkbox" id="01" class="checkbox">
                         <label for="01">Согласен с обработкой <a href="#" target="_blank" class="agreement_link">персональных данных</a></label>
                     </div>
+                    <input type="submit" class="submit-mobile" value="ПОДПИСАТЬСЯ"> 
                 </div>  
             </section> 
             <section class="about">
@@ -266,7 +271,7 @@
                                   <ul class="footer-nav">
                                       <li><a href="#" class="active">Мероприятия</a></li>
                                       <li><a href="#">Расписание</a></li>
-                                      <li><a href="#">О компании</a></li>
+                                      <li><a href="#">О&nbspкомпании</a></li>
                                   </ul>
                               </nav>
                             </div>
@@ -288,33 +293,11 @@
                         </div>
                         <div class="footer-info">
                             <span class="footer_inf">© 2022, Все права защищены</span>
-                            <span class="footer_inf">Сделано в рамках курса учебной платформы <span class="Annblok">Annblok</span> </span>
+                            <span class="footer_inf">Сделано в рамках курса учебной платформы</span>
+                            <span class="Annblok">Annblok</span>
+                            <span class="YouCanCode">You Can Code</span>
                         </div> 
-                        <div class="modal" id="modal"> 
-                            <div class="modal-header">
-                                <a href="#" class="footer-logo"></a>
-                                <button class="burger-close" onclick="closeModal()">
-                                </button> 
-                            </div>
-                            <ul class="header-nav">
-                                <li><a href="#" class="active">Мероприятия</a></li>
-                                <li><a href="#">Расписание</a></li>
-                                <li><a href="#">О компании</a></li>
-                            </ul>
-                            <ul class="header-item">
-                                <li>
-                              <a href="#" target="blank">
-                                  <img src="images/IN.png" alt="in">
-                              </a>
-                                </li>
-                                <li>
-                                <a href="#"  target="blank">
-                                  <img src="images/FB.png" alt="fb">
-                                </a>
-                                </li>
-                            </ul> 
-                            <div class="modal-rectangle"></div>
-                        </div>  
+                          
                     </div>
                 
             </footer>
