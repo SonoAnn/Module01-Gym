@@ -665,6 +665,8 @@ label {
 .about-img {
   background-repeat: no-repeat;
   background-position: 0 center;
+  width: 50%;
+  height: auto;
 }
 .advantage {
   display: flex;
@@ -680,7 +682,8 @@ label {
 }
 .about-content {
   display: flex;
-  
+  gap: 77px;
+  overflow: hidden;
 }
 .advantage-content {
   color: var(--dark, #2B3541);
@@ -907,6 +910,7 @@ label {
 .banner__title {
     font-size: calc(24px + 16 * ((100vw - 768px) / 1140));
     margin-left: 0;
+    letter-spacing: 2.2px;
 }
 .banner__number {
     font-size: calc(26px + 16 * ((100vw - 768px) / 1140));
@@ -952,7 +956,12 @@ label {
     flex-basis: 60.5%;
   } 
  
+}@media (max-width: 943px){
+  .about-content {
+    gap: 36px;
+  }
 }
+
 @media (max-width: 768px){
   .header-logo {
     width: 78px;
@@ -1147,7 +1156,7 @@ label {
   }
   
   .about-img img {
-    width: 370px;
+    max-width: 370px;
     height: 227px;
   }
   .advantage {
