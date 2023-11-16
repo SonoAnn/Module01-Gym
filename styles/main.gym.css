@@ -84,7 +84,6 @@ body {
   height: 30px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: -6px;
 }
 .banner {
 	overflow: hidden;
@@ -103,7 +102,7 @@ body {
   position: relative;
 }
 .banner__body {
-	padding-top: 25px;
+	padding-top: 52px;
   width: 63%;
   z-index: 1;
   padding-bottom: calc(24px + 16 * ((100vw - 320px) / 1140));
@@ -114,7 +113,7 @@ body {
     font-weight: bold;
     font-size: 48px;
     line-height: 125%;
-    letter-spacing: 0.049em;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
     margin: 0px 0px 20px 0px;
     color: #2B3541;
