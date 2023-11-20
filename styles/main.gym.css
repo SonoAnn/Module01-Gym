@@ -960,6 +960,45 @@ label {
     gap: 36px;
   }
 }
+@media (max-width: 900px){
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 224px);
+  }
+  .other-header {
+    margin-top: 0;
+  }
+  .item:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .item:nth-child(2) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .item:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .item:nth-child(4) {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .item:nth-child(5) {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .item:nth-child(6) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .item {
+    font-size: 16px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+}
 
 @media (max-width: 768px){
   .header-logo {
@@ -1066,45 +1105,8 @@ label {
     font-size: 16px;
     opacity: 70%;
   }
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    margin-bottom: 88px;
-  }
-  .other-header {
-    margin-top: 0;
-  }
-  .item:nth-child(1) {
-    grid-column: 1/2;
-    grid-row: 1/2;
-  }
-  .item:nth-child(2) {
-    grid-column: 1/2;
-    grid-row: 2/3;
-  }
-  .item:nth-child(3) {
-    grid-column: 1/2;
-    grid-row: 3/4;
-  }
-  .item:nth-child(4) {
-    grid-column: 2/3;
-    grid-row: 3/4;
-  }
-  .item:nth-child(5) {
-    grid-column: 2/3;
-    grid-row: 2/3;
-  }
-  .item:nth-child(6) {
-    grid-column: 2/3;
-    grid-row: 1/2;
-  }
-  .item {
-    font-size: 16px;
-    width: 47vw;
-    height: 36.9vh;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-  }
+  
+  
   .itembox {
     left: 25px;
   }
@@ -1221,6 +1223,36 @@ label {
     display: none;
   }
  
+}
+@media (max-width: 550px){
+  .grid {
+    grid-template-columns: 1fr ;
+    grid-template-rows: repeat(6, 114px);
+ }
+ .grid-item:nth-child(1) {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;  
+}
+.grid__item:nth-child(2) {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+.grid__item:nth-child(3) {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+.grid__item:nth-child(4) {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+.grid__item:nth-child(5) {
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+}
+.grid__item:nth-child(6) {
+  grid-column: 1 / 2;
+  grid-row: 6 / 7;
+}
 }
 @media(max-width:526px) {
   .banner {
