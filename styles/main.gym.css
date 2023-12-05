@@ -682,6 +682,7 @@ label {
 .advantage-item {
   padding: 0 3px;
   flex-basis: 25%;
+  font-size: 18px;
 }
 .about-content {
   display: flex;
@@ -695,6 +696,7 @@ label {
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 27px */
+  opacity: 60%;
 }
 .advantage-title {
   color: var(--dark, #2B3541);
@@ -1006,7 +1008,11 @@ label {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2,142px );
-}
+  }
+  .advantage-title {
+    font-size: 16px;
+  }
+
   
 }
 
@@ -1056,7 +1062,7 @@ label {
     margin-top: 100px;
 }
 .about {
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
   .menu-grid{
     grid-template-columns: repeat(2, 1fr);
@@ -1175,9 +1181,6 @@ label {
   .about-img img {
     max-width: 370px;
     height: 227px;
-  }
-  .advantage-item {
-    flex-basis: 41%;
   }
   .footer {
     height: 40vh;
