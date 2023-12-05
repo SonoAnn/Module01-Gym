@@ -638,10 +638,6 @@ label {
 .agreement_link:hover {
   color: #000;
 }
-.about-img img {
-  width: 581px;
-  height: 335px;   
-}
 .about {
   margin-bottom: 55px;
 }
@@ -662,10 +658,21 @@ label {
   margin-top: -13px;
 }
 .about-img {
+  position: relative;
   background-repeat: no-repeat;
   background-position: 0 center;
-  width: 50%;
-  height: auto;
+  width: 76%;
+  height: 335px; ;
+}
+.about-img img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;   
 }
 .advantage {
   display: flex;
