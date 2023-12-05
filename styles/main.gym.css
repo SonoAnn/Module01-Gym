@@ -88,6 +88,7 @@ body {
 .banner {
 	overflow: hidden;
   display: flex;
+  margin-bottom: 174px;
 }
 .banner__content {
 	flex: 0 0 100%;
@@ -102,7 +103,7 @@ body {
   position: relative;
 }
 .banner__body {
-	padding-top: 52px;
+	padding-top: 6px;
   width: 63%;
   z-index: 1;
   padding-bottom: calc(24px + 16 * ((100vw - 320px) / 1140));
@@ -121,8 +122,7 @@ body {
 .banner__number {
     font-weight: 400;
     font-size: 40px;
-    line-height: 125%;
-    margin-bottom: 0;
+    line-height: 141%;
     color: #2B3541;
 }
 .banner__number-big {
@@ -661,7 +661,7 @@ label {
   position: relative;
   background-repeat: no-repeat;
   background-position: 0 center;
-  width: 76%;
+  flex-basis: 80%;
   height: 335px; ;
 }
 .about-img img {
@@ -673,9 +673,6 @@ label {
   object-fit: cover;
   width: 100%;
   height: 100%;   
-}
-.advantage {
-  display: flex;
 }
 .advantage__contents {
   display: flex;
@@ -968,6 +965,7 @@ label {
   }
 }
 @media (max-width: 900px){
+
   .grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 224px);
@@ -1004,7 +1002,12 @@ label {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
   }
-
+  .advantage__contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,142px );
+}
+  
 }
 
 @media (max-width: 768px){
@@ -1051,6 +1054,9 @@ label {
 .banner__image img {
     max-width: 81%;
     margin-top: 100px;
+}
+.about {
+  margin-bottom: 0;
 }
   .menu-grid{
     grid-template-columns: repeat(2, 1fr);
@@ -1162,17 +1168,13 @@ label {
   .submit {
     display: none;
   }
+  .about-img {
+    height: 217px;
+}
   
   .about-img img {
     max-width: 370px;
     height: 227px;
-  }
-  .advantage {
-    display: inline-block;
-  }
-  .advantage__contents {
-    justify-content: space-around;
-    flex-wrap: wrap;
   }
   .advantage-item {
     flex-basis: 41%;
