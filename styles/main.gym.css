@@ -643,7 +643,7 @@ label {
 }
 .information  {
   display: block;
-  margin-top: -27px;
+  
 }
 .subject {
   color: var(--dark, #2B3541);
@@ -1162,6 +1162,7 @@ label {
   }
   .subject {
     font-size: 26px;
+    margin-top: 0;
     }
   .desc {
     max-width: 318px;
