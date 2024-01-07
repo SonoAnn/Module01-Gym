@@ -996,7 +996,7 @@ label {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2,142px );
-    margin-bottom: 54px;
+    margin-bottom: 41px;
   }
   .advantage-title {
     font-size: 16px;
@@ -1190,6 +1190,7 @@ label {
   .footer__box {
     justify-content: flex-end;
     flex-wrap: wrap;
+    margin-top: 10px;
   }
   .footer-nav {
     font-size: 12px;
@@ -1211,7 +1212,7 @@ label {
     left: -13px;
     bottom: 6px;
 }
-}
+
   .footer_inf {
     font-size: 10px;
   }
