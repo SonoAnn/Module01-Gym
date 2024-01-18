@@ -1317,5 +1317,44 @@ label {
   .menu-grid-cover:last-child {
     height: 366px;
 }
-
+.itembox {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+  bottom: 0;
+  left: 20px;
+  margin-bottom: -18px;
+}
+.about-img {
+    display: none;
+}
+.commit {
+  width: 340px;
+}
+.advantage__contents {
+  display: flex;
+  flex-direction: column;
+  max-width: 230px;
+}
+.footer__box {
+  justify-content: center;
+}
+.footer-first-item {
+  display: flex;
+  flex-direction: column;
+}
+.footer-nav {
+  padding-right: 35px;
+}
+.info {
+  padding-right: 105px;
+}
+.footer-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer_rights {
+  margin-bottom: 10px;
+}
 }  
