@@ -704,16 +704,16 @@ label {
   line-height: 125%; /* 22.5px */
 }
 .footer {
-  height: 23vh;
   background: #F3F3F3;
   font-size: 18px;
   padding-top: 35px;
+  padding-bottom: 15px;
 }
 
 .footer__box {
   display: flex;
   align-items: center;
-  gap: 3.3vw;
+  justify-content: space-between;
 }
 .footer-item {
   display: flex;
@@ -721,7 +721,7 @@ label {
   align-items: center;
   justify-content: space-between;
   background-color: transparent;
-  gap: 1.5vw;
+  
 }
 .footer-nav {
   display: flex;
@@ -757,6 +757,7 @@ label {
   transition: 0.3s;
   transform: scale(1);
   opacity: 0.8;
+  padding: 5px;
 }
 .footer-item a:hover {
   transform: scale(1.2);
@@ -774,7 +775,6 @@ label {
   display: flex;
   align-items: center;
   flex-basis: 80.5%;
-  gap: 33px;
 }
 .footer-info {
   display: flex;
@@ -996,6 +996,11 @@ label {
   .advantage-title {
     font-size: 16px;
   }
+  .footer__box {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
 
   
 }
@@ -1171,9 +1176,9 @@ label {
     height: 227px;
   }
   .footer {
-    height: 27vh;
     max-width: 767px;
     overflow: hidden;
+    padding-bottom: 15px;
   }
   .footer-info {
     font-size: 10px;
@@ -1182,11 +1187,7 @@ label {
   .Annblok {
     display: none;
   }
-  .footer__box {
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    margin-top: 10px;
-  }
+  
   .footer-nav {
     font-size: 12px;
     gap: 25px;
@@ -1313,7 +1314,7 @@ label {
       display: none;
   }
 }
-@media (max-width: 361px) {
+@media (max-width: 380px) {
   .menu-grid-cover:last-child {
     height: 366px;
 }
