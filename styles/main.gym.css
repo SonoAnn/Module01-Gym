@@ -1273,6 +1273,9 @@ label {
 }
 }
 @media(max-width:526px) {
+  .header-burger {
+    flex-basis: 7.5%;
+}
   .banner {
       flex-direction: column;
       padding-left: 10px;
