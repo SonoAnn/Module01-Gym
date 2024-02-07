@@ -859,10 +859,7 @@ label {
   flex-direction: column;
   align-items: flex-start;
   padding: 40px 10px;
-  
-}
-.modal .header-nav a{
-  border-bottom: 1px solid #2B3541;
+  border-bottom: 1px solid #2b354140;
 }
 .modal .header-item {
   justify-content: flex-end;
@@ -1326,8 +1323,14 @@ label {
   }
 }
 @media (max-width: 380px) {
-  .menu-grid-cover:last-child {
-    height: 366px;
+  .modal .header-nav {
+  padding: 48px 10px;
+}
+  .banner__link {
+  z-index: 3;
+  }
+.menu-grid-cover:last-child {
+  height: 366px;
 }
 .itembox {
   display: flex;
