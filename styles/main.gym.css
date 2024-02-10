@@ -822,6 +822,7 @@ label {
 .modal {
   background-color: #F3F3F3;
   max-width: 587px;
+  height: 331px;
   text-align:right;
   position: absolute;
   top: -555px;
@@ -830,7 +831,7 @@ label {
   margin: 0 auto;
   box-sizing: border-box;
   transition: .5s;
-  z-index: 2;
+  z-index: 6;
 }
 .modal-header {
   display: flex;
@@ -871,11 +872,21 @@ label {
 .modal .header-item a:hover {
  transform: none;
 }
-.modal-rectangle {
-  background-color: #2B3541;
-  opacity: 40%;
-  max-width: 587px;
-  height: 135px;
+
+/*Block body*/
+
+.site-body{
+  position: relative;
+}
+.block::before {
+  content: '';
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0, .4);
 }
 
 /*Responsive*/

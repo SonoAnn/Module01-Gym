@@ -16,7 +16,7 @@
     <meta name="theme-color" content="#ffffff">
     <script src="./js/index.js" defer></script>
 </head>
-<body>
+<body class="site-body">
     <header>
         <div class="wrapper"> 
             <div class="header"> 
@@ -332,7 +332,7 @@
                     </a>
                     </li>
                 </ul>
-                <div class="modal-rectangle"></div>
+                
                 <button class="burger-close" onclick="closeModal()"></button>
             </div>
     </div>
@@ -341,10 +341,12 @@
 
         function openModal() {
            document.getElementById("modal").style.top = "0px";
+           document. querySelector(".site-body").classList.add("block")
        }
 
        function closeModal() {
            document.getElementById("modal").style.top = "-555px";
+           document. querySelector(".site-body").classList.remove("block")
        }
     </script>
 </body>
