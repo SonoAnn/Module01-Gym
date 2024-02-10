@@ -721,7 +721,6 @@ label {
   align-items: center;
   justify-content: space-between;
   background-color: transparent;
-  
 }
 .footer-nav {
   display: flex;
@@ -817,7 +816,6 @@ label {
   border: none;
   cursor: pointer;
   background-repeat: no-repeat;
-
 }
 .modal {
   background-color: #F3F3F3;
@@ -832,11 +830,6 @@ label {
   box-sizing: border-box;
   transition: .5s;
   z-index: 6;
-}
-.modal-header {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 29px;
 }
 .modal .footer-logo{
   width: 78px;
@@ -860,11 +853,14 @@ label {
   flex-direction: column;
   align-items: flex-start;
   padding: 40px 10px;
+}
+.modal .header-nav a {
   border-bottom: 1px solid #2b354140;
 }
 .modal .header-item {
   justify-content: flex-end;
   padding-right: 11px;
+  padding-top: 55px;
 }
 .modal .header-item a {
   opacity: 1;
@@ -1337,7 +1333,7 @@ label {
   .modal .header-nav {
   padding: 48px 10px;
 }
-  .banner__link {
+.banner__link {
   z-index: 3;
   }
 .menu-grid-cover:last-child {
