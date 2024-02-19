@@ -919,7 +919,6 @@ label {
 .banner__link{
     margin-left: 0;
 }
-
 .scroll-button { 
     -webkit-transform: scale(0.7);
     -ms-ransform: scale(0.7);
@@ -927,7 +926,6 @@ label {
     bottom: -7px;
     left: 16px;
 }
- 
 }
 @media (max-width:1020px) {
   
