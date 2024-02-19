@@ -1335,6 +1335,9 @@ label {
   .modal .header-nav {
   padding: 48px 10px;
 }
+.modal .header-item {
+  padding-top: 80px;
+}
 .banner__link {
   z-index: 3;
   }
