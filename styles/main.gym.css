@@ -853,7 +853,11 @@ label {
 }
 .modal .header-nav li {
   border-bottom: 1px solid #2b354140;
-  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.modal .header-nav :last-child {
+  border-bottom: none;
 }
 .modal .header-item {
   justify-content: flex-end;
@@ -1068,10 +1072,10 @@ label {
     gap: 10px 20px;
     margin-bottom: 80px;
   }
-  .menu-grid-item:last-child{
+  .menu-grid-item:last-child {
     grid-column: 1/3;
   }
-  .menu-header-grid{
+  .menu-header-grid {
   font-size: 16px;
   margin-bottom: 20px;
   }
