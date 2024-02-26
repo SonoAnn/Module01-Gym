@@ -3,6 +3,9 @@
 body {
   font-family: 'Montserrat', sans-serif; 
 }
+* {
+  box-sizing: border-box;
+}
 .wrapper {
   max-width: 1140px;
   margin: 0 auto;
@@ -175,7 +178,8 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 100%;
-    bottom: 0 ;  
+    bottom: 0 ;
+    transition: .3s;  
 }
 
 .menu-grid {
