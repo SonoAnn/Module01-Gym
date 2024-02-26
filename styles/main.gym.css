@@ -725,6 +725,7 @@ label {
   align-items: center;
   justify-content: space-between;
   background-color: transparent;
+  gap: 30px;
 }
 .footer-nav {
   display: flex;
@@ -1374,6 +1375,9 @@ label {
 }
 .footer-nav {
   padding-right: 35px;
+}
+.footer-item {
+  gap: 20px;
 }
 .info {
   padding-right: 105px;
